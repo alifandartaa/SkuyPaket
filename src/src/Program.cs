@@ -16,7 +16,7 @@ namespace src
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new InputPengirimData());
+            Application.Run(new LaporanPengiriman());
         }
     }
 }
