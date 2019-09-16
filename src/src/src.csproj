@@ -64,6 +64,12 @@
     <Compile Include="LaporanPengiriman.Designer.cs">
       <DependentUpon>LaporanPengiriman.cs</DependentUpon>
     </Compile>
+    <Compile Include="listPengiriman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="listPengiriman.Designer.cs">
+      <DependentUpon>listPengiriman.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -74,6 +80,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="LaporanPengiriman.resx">
       <DependentUpon>LaporanPengiriman.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="listPengiriman.resx">
+      <DependentUpon>listPengiriman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

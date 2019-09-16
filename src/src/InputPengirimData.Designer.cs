@@ -29,12 +29,9 @@
         private void InitializeComponent()
         {
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.dtTanggal = new System.Windows.Forms.DateTimePicker();
-            this.cbCabang = new System.Windows.Forms.ComboBox();
-            this.lbTanggal = new System.Windows.Forms.Label();
-            this.tbNoResi = new System.Windows.Forms.TextBox();
-            this.lbNoResi = new System.Windows.Forms.Label();
-            this.lbCabang = new System.Windows.Forms.Label();
+            this.lbKg = new System.Windows.Forms.Label();
+            this.tbTarif = new System.Windows.Forms.TextBox();
+            this.lbTarif = new System.Windows.Forms.Label();
             this.tbBerat = new System.Windows.Forms.TextBox();
             this.lbBerat = new System.Windows.Forms.Label();
             this.cbJenisBarang = new System.Windows.Forms.ComboBox();
@@ -42,19 +39,13 @@
             this.rbExpress = new System.Windows.Forms.RadioButton();
             this.rbReguler = new System.Windows.Forms.RadioButton();
             this.lbJenisBarang = new System.Windows.Forms.Label();
-            this.lbTarif = new System.Windows.Forms.Label();
-            this.tbTarif = new System.Windows.Forms.TextBox();
+            this.dtTanggal = new System.Windows.Forms.DateTimePicker();
+            this.cbCabang = new System.Windows.Forms.ComboBox();
+            this.lbTanggal = new System.Windows.Forms.Label();
+            this.tbNoResi = new System.Windows.Forms.TextBox();
+            this.lbNoResi = new System.Windows.Forms.Label();
+            this.lbCabang = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.btnSimpan = new System.Windows.Forms.Button();
-            this.btnReset = new System.Windows.Forms.Button();
-            this.lbPengirim = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.lbAlamatPengirim = new System.Windows.Forms.Label();
-            this.rtbAlamatPengirim = new System.Windows.Forms.RichTextBox();
-            this.lbKodePosPengirim = new System.Windows.Forms.Label();
-            this.tbKodePosPengirim = new System.Windows.Forms.TextBox();
-            this.lbNoTelpPengirim = new System.Windows.Forms.Label();
-            this.tbNoTelpPengirim = new System.Windows.Forms.TextBox();
             this.tbNoTelpPenerima = new System.Windows.Forms.TextBox();
             this.lbNoTelpPenerima = new System.Windows.Forms.Label();
             this.tbKodePosPenerima = new System.Windows.Forms.TextBox();
@@ -63,8 +54,21 @@
             this.lbAlamatPenerima = new System.Windows.Forms.Label();
             this.textBox9 = new System.Windows.Forms.TextBox();
             this.lbPenerima = new System.Windows.Forms.Label();
+            this.tbNoTelpPengirim = new System.Windows.Forms.TextBox();
+            this.lbNoTelpPengirim = new System.Windows.Forms.Label();
+            this.tbKodePosPengirim = new System.Windows.Forms.TextBox();
+            this.lbKodePosPengirim = new System.Windows.Forms.Label();
+            this.rtbAlamatPengirim = new System.Windows.Forms.RichTextBox();
+            this.lbAlamatPengirim = new System.Windows.Forms.Label();
+            this.textBox4 = new System.Windows.Forms.TextBox();
+            this.lbPengirim = new System.Windows.Forms.Label();
+            this.btnSimpan = new System.Windows.Forms.Button();
+            this.btnReset = new System.Windows.Forms.Button();
             this.lbJudulResi = new System.Windows.Forms.Label();
-            this.lbKg = new System.Windows.Forms.Label();
+            this.tbKotaPengirim = new System.Windows.Forms.TextBox();
+            this.lbKotaPengirim = new System.Windows.Forms.Label();
+            this.tbKotaPenerima = new System.Windows.Forms.TextBox();
+            this.lbKotaPenerima = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.SuspendLayout();
@@ -96,54 +100,30 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Barang";
             // 
-            // dtTanggal
+            // lbKg
             // 
-            this.dtTanggal.Location = new System.Drawing.Point(80, 75);
-            this.dtTanggal.Name = "dtTanggal";
-            this.dtTanggal.Size = new System.Drawing.Size(193, 20);
-            this.dtTanggal.TabIndex = 25;
+            this.lbKg.AutoSize = true;
+            this.lbKg.Location = new System.Drawing.Point(544, 78);
+            this.lbKg.Name = "lbKg";
+            this.lbKg.Size = new System.Drawing.Size(20, 13);
+            this.lbKg.TabIndex = 38;
+            this.lbKg.Text = "Kg";
             // 
-            // cbCabang
+            // tbTarif
             // 
-            this.cbCabang.FormattingEnabled = true;
-            this.cbCabang.Location = new System.Drawing.Point(80, 22);
-            this.cbCabang.Name = "cbCabang";
-            this.cbCabang.Size = new System.Drawing.Size(193, 21);
-            this.cbCabang.TabIndex = 21;
+            this.tbTarif.Location = new System.Drawing.Point(617, 20);
+            this.tbTarif.Name = "tbTarif";
+            this.tbTarif.Size = new System.Drawing.Size(152, 20);
+            this.tbTarif.TabIndex = 37;
             // 
-            // lbTanggal
+            // lbTarif
             // 
-            this.lbTanggal.AutoSize = true;
-            this.lbTanggal.Location = new System.Drawing.Point(6, 75);
-            this.lbTanggal.Name = "lbTanggal";
-            this.lbTanggal.Size = new System.Drawing.Size(46, 13);
-            this.lbTanggal.TabIndex = 19;
-            this.lbTanggal.Text = "Tanggal";
-            // 
-            // tbNoResi
-            // 
-            this.tbNoResi.Location = new System.Drawing.Point(80, 49);
-            this.tbNoResi.Name = "tbNoResi";
-            this.tbNoResi.Size = new System.Drawing.Size(193, 20);
-            this.tbNoResi.TabIndex = 18;
-            // 
-            // lbNoResi
-            // 
-            this.lbNoResi.AutoSize = true;
-            this.lbNoResi.Location = new System.Drawing.Point(6, 49);
-            this.lbNoResi.Name = "lbNoResi";
-            this.lbNoResi.Size = new System.Drawing.Size(45, 13);
-            this.lbNoResi.TabIndex = 17;
-            this.lbNoResi.Text = "No Resi";
-            // 
-            // lbCabang
-            // 
-            this.lbCabang.AutoSize = true;
-            this.lbCabang.Location = new System.Drawing.Point(6, 22);
-            this.lbCabang.Name = "lbCabang";
-            this.lbCabang.Size = new System.Drawing.Size(44, 13);
-            this.lbCabang.TabIndex = 16;
-            this.lbCabang.Text = "Cabang";
+            this.lbTarif.AutoSize = true;
+            this.lbTarif.Location = new System.Drawing.Point(582, 22);
+            this.lbTarif.Name = "lbTarif";
+            this.lbTarif.Size = new System.Drawing.Size(28, 13);
+            this.lbTarif.TabIndex = 36;
+            this.lbTarif.Text = "Tarif";
             // 
             // tbBerat
             // 
@@ -209,27 +189,64 @@
             this.lbJenisBarang.TabIndex = 29;
             this.lbJenisBarang.Text = "Jenis Barang";
             // 
-            // lbTarif
+            // dtTanggal
             // 
-            this.lbTarif.AutoSize = true;
-            this.lbTarif.Location = new System.Drawing.Point(582, 22);
-            this.lbTarif.Name = "lbTarif";
-            this.lbTarif.Size = new System.Drawing.Size(28, 13);
-            this.lbTarif.TabIndex = 36;
-            this.lbTarif.Text = "Tarif";
+            this.dtTanggal.Location = new System.Drawing.Point(80, 75);
+            this.dtTanggal.Name = "dtTanggal";
+            this.dtTanggal.Size = new System.Drawing.Size(193, 20);
+            this.dtTanggal.TabIndex = 25;
             // 
-            // tbTarif
+            // cbCabang
             // 
-            this.tbTarif.Location = new System.Drawing.Point(617, 20);
-            this.tbTarif.Name = "tbTarif";
-            this.tbTarif.Size = new System.Drawing.Size(152, 20);
-            this.tbTarif.TabIndex = 37;
+            this.cbCabang.FormattingEnabled = true;
+            this.cbCabang.Location = new System.Drawing.Point(80, 22);
+            this.cbCabang.Name = "cbCabang";
+            this.cbCabang.Size = new System.Drawing.Size(193, 21);
+            this.cbCabang.TabIndex = 21;
+            // 
+            // lbTanggal
+            // 
+            this.lbTanggal.AutoSize = true;
+            this.lbTanggal.Location = new System.Drawing.Point(6, 75);
+            this.lbTanggal.Name = "lbTanggal";
+            this.lbTanggal.Size = new System.Drawing.Size(46, 13);
+            this.lbTanggal.TabIndex = 19;
+            this.lbTanggal.Text = "Tanggal";
+            // 
+            // tbNoResi
+            // 
+            this.tbNoResi.Location = new System.Drawing.Point(80, 49);
+            this.tbNoResi.Name = "tbNoResi";
+            this.tbNoResi.Size = new System.Drawing.Size(193, 20);
+            this.tbNoResi.TabIndex = 18;
+            // 
+            // lbNoResi
+            // 
+            this.lbNoResi.AutoSize = true;
+            this.lbNoResi.Location = new System.Drawing.Point(6, 49);
+            this.lbNoResi.Name = "lbNoResi";
+            this.lbNoResi.Size = new System.Drawing.Size(45, 13);
+            this.lbNoResi.TabIndex = 17;
+            this.lbNoResi.Text = "No Resi";
+            // 
+            // lbCabang
+            // 
+            this.lbCabang.AutoSize = true;
+            this.lbCabang.Location = new System.Drawing.Point(6, 22);
+            this.lbCabang.Name = "lbCabang";
+            this.lbCabang.Size = new System.Drawing.Size(44, 13);
+            this.lbCabang.TabIndex = 16;
+            this.lbCabang.Text = "Cabang";
             // 
             // groupBox2
             // 
             this.groupBox2.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
             | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
+            this.groupBox2.Controls.Add(this.tbKotaPenerima);
+            this.groupBox2.Controls.Add(this.lbKotaPenerima);
+            this.groupBox2.Controls.Add(this.tbKotaPengirim);
+            this.groupBox2.Controls.Add(this.lbKotaPengirim);
             this.groupBox2.Controls.Add(this.tbNoTelpPenerima);
             this.groupBox2.Controls.Add(this.lbNoTelpPenerima);
             this.groupBox2.Controls.Add(this.tbKodePosPenerima);
@@ -252,89 +269,6 @@
             this.groupBox2.TabIndex = 2;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Data Diri";
-            // 
-            // btnSimpan
-            // 
-            this.btnSimpan.Location = new System.Drawing.Point(711, 391);
-            this.btnSimpan.Name = "btnSimpan";
-            this.btnSimpan.Size = new System.Drawing.Size(75, 23);
-            this.btnSimpan.TabIndex = 3;
-            this.btnSimpan.Text = "Simpan";
-            this.btnSimpan.UseVisualStyleBackColor = true;
-            // 
-            // btnReset
-            // 
-            this.btnReset.Location = new System.Drawing.Point(630, 391);
-            this.btnReset.Name = "btnReset";
-            this.btnReset.Size = new System.Drawing.Size(75, 23);
-            this.btnReset.TabIndex = 4;
-            this.btnReset.Text = "Reset";
-            this.btnReset.UseVisualStyleBackColor = true;
-            // 
-            // lbPengirim
-            // 
-            this.lbPengirim.AutoSize = true;
-            this.lbPengirim.Location = new System.Drawing.Point(6, 20);
-            this.lbPengirim.Name = "lbPengirim";
-            this.lbPengirim.Size = new System.Drawing.Size(47, 13);
-            this.lbPengirim.TabIndex = 0;
-            this.lbPengirim.Text = "Pengirim";
-            // 
-            // textBox4
-            // 
-            this.textBox4.Location = new System.Drawing.Point(80, 20);
-            this.textBox4.Name = "textBox4";
-            this.textBox4.Size = new System.Drawing.Size(300, 20);
-            this.textBox4.TabIndex = 38;
-            // 
-            // lbAlamatPengirim
-            // 
-            this.lbAlamatPengirim.AutoSize = true;
-            this.lbAlamatPengirim.Location = new System.Drawing.Point(6, 46);
-            this.lbAlamatPengirim.Name = "lbAlamatPengirim";
-            this.lbAlamatPengirim.Size = new System.Drawing.Size(39, 13);
-            this.lbAlamatPengirim.TabIndex = 39;
-            this.lbAlamatPengirim.Text = "Alamat";
-            // 
-            // rtbAlamatPengirim
-            // 
-            this.rtbAlamatPengirim.Location = new System.Drawing.Point(80, 46);
-            this.rtbAlamatPengirim.Name = "rtbAlamatPengirim";
-            this.rtbAlamatPengirim.Size = new System.Drawing.Size(300, 96);
-            this.rtbAlamatPengirim.TabIndex = 40;
-            this.rtbAlamatPengirim.Text = "";
-            // 
-            // lbKodePosPengirim
-            // 
-            this.lbKodePosPengirim.AutoSize = true;
-            this.lbKodePosPengirim.Location = new System.Drawing.Point(6, 148);
-            this.lbKodePosPengirim.Name = "lbKodePosPengirim";
-            this.lbKodePosPengirim.Size = new System.Drawing.Size(53, 13);
-            this.lbKodePosPengirim.TabIndex = 41;
-            this.lbKodePosPengirim.Text = "Kode Pos";
-            // 
-            // tbKodePosPengirim
-            // 
-            this.tbKodePosPengirim.Location = new System.Drawing.Point(80, 148);
-            this.tbKodePosPengirim.Name = "tbKodePosPengirim";
-            this.tbKodePosPengirim.Size = new System.Drawing.Size(300, 20);
-            this.tbKodePosPengirim.TabIndex = 42;
-            // 
-            // lbNoTelpPengirim
-            // 
-            this.lbNoTelpPengirim.AutoSize = true;
-            this.lbNoTelpPengirim.Location = new System.Drawing.Point(6, 174);
-            this.lbNoTelpPengirim.Name = "lbNoTelpPengirim";
-            this.lbNoTelpPengirim.Size = new System.Drawing.Size(63, 13);
-            this.lbNoTelpPengirim.TabIndex = 43;
-            this.lbNoTelpPengirim.Text = "No Telepon";
-            // 
-            // tbNoTelpPengirim
-            // 
-            this.tbNoTelpPengirim.Location = new System.Drawing.Point(80, 174);
-            this.tbNoTelpPengirim.Name = "tbNoTelpPengirim";
-            this.tbNoTelpPengirim.Size = new System.Drawing.Size(300, 20);
-            this.tbNoTelpPengirim.TabIndex = 44;
             // 
             // tbNoTelpPenerima
             // 
@@ -372,7 +306,7 @@
             // 
             this.rtbAlamatPenerima.Location = new System.Drawing.Point(469, 46);
             this.rtbAlamatPenerima.Name = "rtbAlamatPenerima";
-            this.rtbAlamatPenerima.Size = new System.Drawing.Size(300, 96);
+            this.rtbAlamatPenerima.Size = new System.Drawing.Size(300, 65);
             this.rtbAlamatPenerima.TabIndex = 48;
             this.rtbAlamatPenerima.Text = "";
             // 
@@ -401,6 +335,89 @@
             this.lbPenerima.TabIndex = 45;
             this.lbPenerima.Text = "Penerima";
             // 
+            // tbNoTelpPengirim
+            // 
+            this.tbNoTelpPengirim.Location = new System.Drawing.Point(80, 174);
+            this.tbNoTelpPengirim.Name = "tbNoTelpPengirim";
+            this.tbNoTelpPengirim.Size = new System.Drawing.Size(300, 20);
+            this.tbNoTelpPengirim.TabIndex = 44;
+            // 
+            // lbNoTelpPengirim
+            // 
+            this.lbNoTelpPengirim.AutoSize = true;
+            this.lbNoTelpPengirim.Location = new System.Drawing.Point(6, 174);
+            this.lbNoTelpPengirim.Name = "lbNoTelpPengirim";
+            this.lbNoTelpPengirim.Size = new System.Drawing.Size(63, 13);
+            this.lbNoTelpPengirim.TabIndex = 43;
+            this.lbNoTelpPengirim.Text = "No Telepon";
+            // 
+            // tbKodePosPengirim
+            // 
+            this.tbKodePosPengirim.Location = new System.Drawing.Point(80, 148);
+            this.tbKodePosPengirim.Name = "tbKodePosPengirim";
+            this.tbKodePosPengirim.Size = new System.Drawing.Size(300, 20);
+            this.tbKodePosPengirim.TabIndex = 42;
+            // 
+            // lbKodePosPengirim
+            // 
+            this.lbKodePosPengirim.AutoSize = true;
+            this.lbKodePosPengirim.Location = new System.Drawing.Point(6, 148);
+            this.lbKodePosPengirim.Name = "lbKodePosPengirim";
+            this.lbKodePosPengirim.Size = new System.Drawing.Size(53, 13);
+            this.lbKodePosPengirim.TabIndex = 41;
+            this.lbKodePosPengirim.Text = "Kode Pos";
+            // 
+            // rtbAlamatPengirim
+            // 
+            this.rtbAlamatPengirim.Location = new System.Drawing.Point(80, 46);
+            this.rtbAlamatPengirim.Name = "rtbAlamatPengirim";
+            this.rtbAlamatPengirim.Size = new System.Drawing.Size(300, 65);
+            this.rtbAlamatPengirim.TabIndex = 40;
+            this.rtbAlamatPengirim.Text = "";
+            // 
+            // lbAlamatPengirim
+            // 
+            this.lbAlamatPengirim.AutoSize = true;
+            this.lbAlamatPengirim.Location = new System.Drawing.Point(6, 46);
+            this.lbAlamatPengirim.Name = "lbAlamatPengirim";
+            this.lbAlamatPengirim.Size = new System.Drawing.Size(39, 13);
+            this.lbAlamatPengirim.TabIndex = 39;
+            this.lbAlamatPengirim.Text = "Alamat";
+            // 
+            // textBox4
+            // 
+            this.textBox4.Location = new System.Drawing.Point(80, 20);
+            this.textBox4.Name = "textBox4";
+            this.textBox4.Size = new System.Drawing.Size(300, 20);
+            this.textBox4.TabIndex = 38;
+            // 
+            // lbPengirim
+            // 
+            this.lbPengirim.AutoSize = true;
+            this.lbPengirim.Location = new System.Drawing.Point(6, 20);
+            this.lbPengirim.Name = "lbPengirim";
+            this.lbPengirim.Size = new System.Drawing.Size(47, 13);
+            this.lbPengirim.TabIndex = 0;
+            this.lbPengirim.Text = "Pengirim";
+            // 
+            // btnSimpan
+            // 
+            this.btnSimpan.Location = new System.Drawing.Point(711, 391);
+            this.btnSimpan.Name = "btnSimpan";
+            this.btnSimpan.Size = new System.Drawing.Size(75, 23);
+            this.btnSimpan.TabIndex = 3;
+            this.btnSimpan.Text = "Simpan";
+            this.btnSimpan.UseVisualStyleBackColor = true;
+            // 
+            // btnReset
+            // 
+            this.btnReset.Location = new System.Drawing.Point(630, 391);
+            this.btnReset.Name = "btnReset";
+            this.btnReset.Size = new System.Drawing.Size(75, 23);
+            this.btnReset.TabIndex = 4;
+            this.btnReset.Text = "Reset";
+            this.btnReset.UseVisualStyleBackColor = true;
+            // 
             // lbJudulResi
             // 
             this.lbJudulResi.AutoSize = true;
@@ -411,14 +428,37 @@
             this.lbJudulResi.TabIndex = 5;
             this.lbJudulResi.Text = "RESI PENGIRIMAN PAKET";
             // 
-            // lbKg
+            // tbKotaPengirim
             // 
-            this.lbKg.AutoSize = true;
-            this.lbKg.Location = new System.Drawing.Point(544, 78);
-            this.lbKg.Name = "lbKg";
-            this.lbKg.Size = new System.Drawing.Size(20, 13);
-            this.lbKg.TabIndex = 38;
-            this.lbKg.Text = "Kg";
+            this.tbKotaPengirim.Location = new System.Drawing.Point(80, 117);
+            this.tbKotaPengirim.Name = "tbKotaPengirim";
+            this.tbKotaPengirim.Size = new System.Drawing.Size(300, 20);
+            this.tbKotaPengirim.TabIndex = 54;
+            // 
+            // lbKotaPengirim
+            // 
+            this.lbKotaPengirim.AutoSize = true;
+            this.lbKotaPengirim.Location = new System.Drawing.Point(6, 117);
+            this.lbKotaPengirim.Name = "lbKotaPengirim";
+            this.lbKotaPengirim.Size = new System.Drawing.Size(29, 13);
+            this.lbKotaPengirim.TabIndex = 53;
+            this.lbKotaPengirim.Text = "Kota";
+            // 
+            // tbKotaPenerima
+            // 
+            this.tbKotaPenerima.Location = new System.Drawing.Point(469, 117);
+            this.tbKotaPenerima.Name = "tbKotaPenerima";
+            this.tbKotaPenerima.Size = new System.Drawing.Size(300, 20);
+            this.tbKotaPenerima.TabIndex = 56;
+            // 
+            // lbKotaPenerima
+            // 
+            this.lbKotaPenerima.AutoSize = true;
+            this.lbKotaPenerima.Location = new System.Drawing.Point(395, 117);
+            this.lbKotaPenerima.Name = "lbKotaPenerima";
+            this.lbKotaPenerima.Size = new System.Drawing.Size(29, 13);
+            this.lbKotaPenerima.TabIndex = 55;
+            this.lbKotaPenerima.Text = "Kota";
             // 
             // InputPengirimData
             // 
@@ -479,5 +519,9 @@
         private System.Windows.Forms.Button btnReset;
         private System.Windows.Forms.Label lbJudulResi;
         private System.Windows.Forms.Label lbKg;
+        private System.Windows.Forms.TextBox tbKotaPenerima;
+        private System.Windows.Forms.Label lbKotaPenerima;
+        private System.Windows.Forms.TextBox tbKotaPengirim;
+        private System.Windows.Forms.Label lbKotaPengirim;
     }
 }
