@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace src
 {
-    public partial class ListPengiriman : Form
+    public partial class BuktiTransaksi : Form
     {
-        public ListPengiriman()
+        public BuktiTransaksi()
         {
             InitializeComponent();
-        }
-
-        private void listPengiriman_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace src
 {
-    partial class listPengiriman
+    partial class ListPengiriman
     {
         /// <summary>
         /// Required designer variable.
