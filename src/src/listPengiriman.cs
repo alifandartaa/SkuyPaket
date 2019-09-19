@@ -16,10 +16,5 @@ namespace src
         {
             InitializeComponent();
         }
-
-        private void listPengiriman_Load(object sender, EventArgs e)
-        {
-
-        }
     }
 }
