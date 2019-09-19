@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace src
 {
-    public partial class ListPengiriman : Form
+    public partial class DaftarPengiriman : Form
     {
-        public ListPengiriman()
+        public DaftarPengiriman()
         {
             InitializeComponent();
         }
