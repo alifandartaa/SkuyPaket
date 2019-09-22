@@ -16,5 +16,10 @@ namespace src
         {
             InitializeComponent();
         }
+
+        private void DaftarPengiriman_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
