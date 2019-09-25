@@ -146,7 +146,7 @@
             this.groupBox1.Controls.Add(this.lbNomorResi);
             this.groupBox1.Controls.Add(this.lbTextResi);
             this.groupBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.groupBox1.Location = new System.Drawing.Point(17, 313);
+            this.groupBox1.Location = new System.Drawing.Point(16, 130);
             this.groupBox1.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -310,6 +310,7 @@
             this.groupBox2.TabIndex = 5;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Data Pengirim";
+            this.groupBox2.Visible = false;
             // 
             // lbNoTelpPengirim
             // 
@@ -421,6 +422,7 @@
             this.groupBox3.TabIndex = 6;
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Data Penerima";
+            this.groupBox3.Visible = false;
             // 
             // lbNoTelpPenerima
             // 
@@ -518,7 +520,7 @@
             this.groupBox4.Controls.Add(this.cbTambahStatus);
             this.groupBox4.Controls.Add(this.btnTambahStatus);
             this.groupBox4.Controls.Add(this.button2);
-            this.groupBox4.Location = new System.Drawing.Point(540, 313);
+            this.groupBox4.Location = new System.Drawing.Point(534, 131);
             this.groupBox4.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox4.Name = "groupBox4";
             this.groupBox4.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
@@ -600,7 +602,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.ClientSize = new System.Drawing.Size(1067, 447);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
