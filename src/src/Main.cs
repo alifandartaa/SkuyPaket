@@ -39,16 +39,22 @@ namespace src
 
         private void toolStripButton1_Click(object sender, EventArgs e)
         {
+            ipd = new InputPengirimData();
+            ipd.MdiParent = this;
             ipd.Show();
         }
 
         private void toolStripButton2_Click(object sender, EventArgs e)
         {
+            lpd = new LaporanPengiriman();
+            lpd.MdiParent = this;
             lpd.Show();
         }
 
         private void toolStripButton3_Click(object sender, EventArgs e)
         {
+            dp = new DaftarPengiriman();
+            dp.MdiParent = this;
             dp.Show();
         }
 

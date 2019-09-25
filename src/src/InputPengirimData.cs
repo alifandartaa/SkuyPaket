@@ -71,7 +71,7 @@ namespace src
                 Console.WriteLine("Invoice Executed");
 
                 // invoice_status
-                commandDatabase.CommandText = "INSERT INTO INVOICE_STATUS (`id_invoice`, `id_status`, `tanggal`) VALUES('" + id_invoice + "'," + 1 + ",'" + DateTime.Now.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "')";
+                commandDatabase.CommandText = "INSERT INTO INVOICE_STATUS (`id_invoice`, `id_status`, `tanggal`) VALUES('" + id_invoice + "'," + 1 + ",'" + DateTime.Now.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture) + "')";
                 commandDatabase.ExecuteNonQuery();
                 Console.WriteLine("Invoice_status Executed");
 
