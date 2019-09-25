@@ -33,6 +33,7 @@
             this.btnCekResi = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.label2 = new System.Windows.Forms.Label();
             this.lbOngkosKirim = new System.Windows.Forms.Label();
             this.lbTextOngkos = new System.Windows.Forms.Label();
             this.lbBeratPaket = new System.Windows.Forms.Label();
@@ -71,14 +72,13 @@
             this.label15 = new System.Windows.Forms.Label();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.cbTambahStatus = new System.Windows.Forms.ComboBox();
-            this.btnTambahStatus = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.label2 = new System.Windows.Forms.Label();
             this.lvStatusPengiriman = new System.Windows.Forms.ListView();
             this.columnHeader1 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader2 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
             this.columnHeader3 = ((System.Windows.Forms.ColumnHeader)(new System.Windows.Forms.ColumnHeader()));
+            this.cbTambahStatus = new System.Windows.Forms.ComboBox();
+            this.btnTambahStatus = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox3.SuspendLayout();
@@ -154,6 +154,15 @@
             this.groupBox1.TabIndex = 4;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Informasi Paket";
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(205, 194);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(27, 18);
+            this.label2.TabIndex = 14;
+            this.label2.Text = "Rp";
             // 
             // lbOngkosKirim
             // 
@@ -527,43 +536,6 @@
             this.panel1.Size = new System.Drawing.Size(473, 164);
             this.panel1.TabIndex = 12;
             // 
-            // cbTambahStatus
-            // 
-            this.cbTambahStatus.FormattingEnabled = true;
-            this.cbTambahStatus.Location = new System.Drawing.Point(9, 193);
-            this.cbTambahStatus.Name = "cbTambahStatus";
-            this.cbTambahStatus.Size = new System.Drawing.Size(333, 24);
-            this.cbTambahStatus.TabIndex = 11;
-            // 
-            // btnTambahStatus
-            // 
-            this.btnTambahStatus.Location = new System.Drawing.Point(361, 194);
-            this.btnTambahStatus.Name = "btnTambahStatus";
-            this.btnTambahStatus.Size = new System.Drawing.Size(121, 24);
-            this.btnTambahStatus.TabIndex = 10;
-            this.btnTambahStatus.Text = "Tambah Status";
-            this.btnTambahStatus.UseVisualStyleBackColor = true;
-            this.btnTambahStatus.Click += new System.EventHandler(this.btnTambahStatus_Click);
-            // 
-            // button2
-            // 
-            this.button2.Location = new System.Drawing.Point(445, 241);
-            this.button2.Margin = new System.Windows.Forms.Padding(4);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(197, 30);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Tambah Status";
-            this.button2.UseVisualStyleBackColor = true;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(205, 194);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(27, 18);
-            this.label2.TabIndex = 14;
-            this.label2.Text = "Rp";
-            // 
             // lvStatusPengiriman
             // 
             this.lvStatusPengiriman.Columns.AddRange(new System.Windows.Forms.ColumnHeader[] {
@@ -594,6 +566,34 @@
             this.columnHeader3.Text = "Status";
             this.columnHeader3.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
             this.columnHeader3.Width = 100;
+            // 
+            // cbTambahStatus
+            // 
+            this.cbTambahStatus.FormattingEnabled = true;
+            this.cbTambahStatus.Location = new System.Drawing.Point(9, 193);
+            this.cbTambahStatus.Name = "cbTambahStatus";
+            this.cbTambahStatus.Size = new System.Drawing.Size(333, 24);
+            this.cbTambahStatus.TabIndex = 11;
+            // 
+            // btnTambahStatus
+            // 
+            this.btnTambahStatus.Location = new System.Drawing.Point(361, 194);
+            this.btnTambahStatus.Name = "btnTambahStatus";
+            this.btnTambahStatus.Size = new System.Drawing.Size(121, 24);
+            this.btnTambahStatus.TabIndex = 10;
+            this.btnTambahStatus.Text = "Tambah Status";
+            this.btnTambahStatus.UseVisualStyleBackColor = true;
+            this.btnTambahStatus.Click += new System.EventHandler(this.btnTambahStatus_Click);
+            // 
+            // button2
+            // 
+            this.button2.Location = new System.Drawing.Point(445, 241);
+            this.button2.Margin = new System.Windows.Forms.Padding(4);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(197, 30);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Tambah Status";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // LaporanPengiriman
             // 
