@@ -47,6 +47,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Barang.cs" />
     <Compile Include="BuktiTransaksi.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -59,6 +60,7 @@
     <Compile Include="DaftarPengiriman.Designer.cs">
       <DependentUpon>DaftarPengiriman.cs</DependentUpon>
     </Compile>
+    <Compile Include="Identitas.cs" />
     <Compile Include="Main.cs">
       <SubType>Form</SubType>
     </Compile>
