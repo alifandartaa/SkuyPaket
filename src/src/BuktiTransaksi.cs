@@ -14,10 +14,10 @@ namespace src
     public partial class BuktiTransaksi : Form
     {
         private String noresi;
-        public BuktiTransaksi()
+        public BuktiTransaksi(String noresi)
         {
             InitializeComponent();
-            this.noresi = "923877243479459";
+            this.noresi = noresi;
             this.show_noresi();
             this.show_kategori();
             this.show_jenis();
