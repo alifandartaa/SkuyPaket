@@ -117,4 +117,9 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
+  <data name="label6.Text" xml:space="preserve">
+    <value>1. Biaya pengiriman tidak termasuk biaya asuransi kecuali atas permintaan konsumen untuk diasuransikan melalui prosedur asuransi yang berlaku 
+2. Barang yang bernilai lebih dari 1 juta disarankan untuk diasuransikan
+3. Kami tidak melayani barang berupa cairan berbahaya, barang mudah terbakar, mudah meledak dan binatang peliharaan</value>
+  </data>
 </root>
