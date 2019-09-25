@@ -33,8 +33,6 @@
             this.label6 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
-            this.Pengirim_TextBox = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.Berat_TextBox = new System.Windows.Forms.TextBox();
             this.groupBox4 = new System.Windows.Forms.GroupBox();
@@ -66,19 +64,15 @@
             this.label17 = new System.Windows.Forms.Label();
             this.lbKodePosPenerima = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.groupBox8 = new System.Windows.Forms.GroupBox();
-            this.Penerima_TextBox = new System.Windows.Forms.TextBox();
             this.printPreviewDialog1 = new System.Windows.Forms.PrintPreviewDialog();
             this.printDocument1 = new System.Drawing.Printing.PrintDocument();
             this.panel2.SuspendLayout();
-            this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox4.SuspendLayout();
             this.groupBox1.SuspendLayout();
             this.groupBox6.SuspendLayout();
             this.groupBox5.SuspendLayout();
             this.groupBox7.SuspendLayout();
-            this.groupBox8.SuspendLayout();
             this.SuspendLayout();
             // 
             // panel2
@@ -121,28 +115,6 @@
             this.button1.Text = "Print";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.Button1_Click);
-            // 
-            // groupBox3
-            // 
-            this.groupBox3.Controls.Add(this.Pengirim_TextBox);
-            this.groupBox3.Location = new System.Drawing.Point(347, 87);
-            this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(334, 58);
-            this.groupBox3.TabIndex = 22;
-            this.groupBox3.TabStop = false;
-            this.groupBox3.Text = "Pengirim";
-            // 
-            // Pengirim_TextBox
-            // 
-            this.Pengirim_TextBox.Enabled = false;
-            this.Pengirim_TextBox.Location = new System.Drawing.Point(5, 21);
-            this.Pengirim_TextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Pengirim_TextBox.Name = "Pengirim_TextBox";
-            this.Pengirim_TextBox.ReadOnly = true;
-            this.Pengirim_TextBox.Size = new System.Drawing.Size(323, 22);
-            this.Pengirim_TextBox.TabIndex = 0;
             // 
             // groupBox2
             // 
@@ -253,11 +225,11 @@
             this.groupBox5.Controls.Add(this.label2);
             this.groupBox5.Controls.Add(this.lbNamaPengirim);
             this.groupBox5.Controls.Add(this.label3);
-            this.groupBox5.Location = new System.Drawing.Point(347, 161);
+            this.groupBox5.Location = new System.Drawing.Point(347, 87);
             this.groupBox5.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox5.Name = "groupBox5";
             this.groupBox5.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox5.Size = new System.Drawing.Size(334, 175);
+            this.groupBox5.Size = new System.Drawing.Size(334, 249);
             this.groupBox5.TabIndex = 28;
             this.groupBox5.TabStop = false;
             this.groupBox5.Text = "Data Pengirim";
@@ -265,7 +237,7 @@
             // lbNoTelpPengirim
             // 
             this.lbNoTelpPengirim.AutoSize = true;
-            this.lbNoTelpPengirim.Location = new System.Drawing.Point(107, 143);
+            this.lbNoTelpPengirim.Location = new System.Drawing.Point(127, 179);
             this.lbNoTelpPengirim.Name = "lbNoTelpPengirim";
             this.lbNoTelpPengirim.Size = new System.Drawing.Size(104, 17);
             this.lbNoTelpPengirim.TabIndex = 23;
@@ -274,7 +246,7 @@
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(5, 142);
+            this.label11.Location = new System.Drawing.Point(25, 178);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(82, 17);
             this.label11.TabIndex = 22;
@@ -283,7 +255,7 @@
             // lbKotaPengirim
             // 
             this.lbKotaPengirim.AutoSize = true;
-            this.lbKotaPengirim.Location = new System.Drawing.Point(107, 114);
+            this.lbKotaPengirim.Location = new System.Drawing.Point(127, 150);
             this.lbKotaPengirim.Name = "lbKotaPengirim";
             this.lbKotaPengirim.Size = new System.Drawing.Size(54, 17);
             this.lbKotaPengirim.TabIndex = 21;
@@ -292,7 +264,7 @@
             // label9
             // 
             this.label9.AutoSize = true;
-            this.label9.Location = new System.Drawing.Point(5, 112);
+            this.label9.Location = new System.Drawing.Point(25, 148);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(37, 17);
             this.label9.TabIndex = 20;
@@ -301,7 +273,7 @@
             // lbKodePosPengirim
             // 
             this.lbKodePosPengirim.AutoSize = true;
-            this.lbKodePosPengirim.Location = new System.Drawing.Point(107, 84);
+            this.lbKodePosPengirim.Location = new System.Drawing.Point(127, 120);
             this.lbKodePosPengirim.Name = "lbKodePosPengirim";
             this.lbKodePosPengirim.Size = new System.Drawing.Size(48, 17);
             this.lbKodePosPengirim.TabIndex = 19;
@@ -310,7 +282,7 @@
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(5, 82);
+            this.label7.Location = new System.Drawing.Point(25, 118);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(69, 17);
             this.label7.TabIndex = 18;
@@ -319,7 +291,7 @@
             // lbAlamatPengirim
             // 
             this.lbAlamatPengirim.AutoSize = true;
-            this.lbAlamatPengirim.Location = new System.Drawing.Point(107, 57);
+            this.lbAlamatPengirim.Location = new System.Drawing.Point(127, 93);
             this.lbAlamatPengirim.Name = "lbAlamatPengirim";
             this.lbAlamatPengirim.Size = new System.Drawing.Size(192, 17);
             this.lbAlamatPengirim.TabIndex = 17;
@@ -328,7 +300,7 @@
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(5, 55);
+            this.label2.Location = new System.Drawing.Point(25, 91);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(51, 17);
             this.label2.TabIndex = 16;
@@ -337,7 +309,7 @@
             // lbNamaPengirim
             // 
             this.lbNamaPengirim.AutoSize = true;
-            this.lbNamaPengirim.Location = new System.Drawing.Point(107, 28);
+            this.lbNamaPengirim.Location = new System.Drawing.Point(127, 64);
             this.lbNamaPengirim.Name = "lbNamaPengirim";
             this.lbNamaPengirim.Size = new System.Drawing.Size(92, 17);
             this.lbNamaPengirim.TabIndex = 15;
@@ -346,7 +318,7 @@
             // label3
             // 
             this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(5, 26);
+            this.label3.Location = new System.Drawing.Point(25, 62);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(45, 17);
             this.label3.TabIndex = 14;
@@ -364,11 +336,11 @@
             this.groupBox7.Controls.Add(this.label17);
             this.groupBox7.Controls.Add(this.lbKodePosPenerima);
             this.groupBox7.Controls.Add(this.label15);
-            this.groupBox7.Location = new System.Drawing.Point(704, 161);
+            this.groupBox7.Location = new System.Drawing.Point(704, 91);
             this.groupBox7.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox7.Name = "groupBox7";
             this.groupBox7.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox7.Size = new System.Drawing.Size(309, 175);
+            this.groupBox7.Size = new System.Drawing.Size(336, 245);
             this.groupBox7.TabIndex = 29;
             this.groupBox7.TabStop = false;
             this.groupBox7.Text = "Data Penerima";
@@ -376,7 +348,7 @@
             // lbNoTelpPenerima
             // 
             this.lbNoTelpPenerima.AutoSize = true;
-            this.lbNoTelpPenerima.Location = new System.Drawing.Point(107, 146);
+            this.lbNoTelpPenerima.Location = new System.Drawing.Point(131, 174);
             this.lbNoTelpPenerima.Name = "lbNoTelpPenerima";
             this.lbNoTelpPenerima.Size = new System.Drawing.Size(104, 17);
             this.lbNoTelpPenerima.TabIndex = 33;
@@ -385,7 +357,7 @@
             // label21
             // 
             this.label21.AutoSize = true;
-            this.label21.Location = new System.Drawing.Point(5, 30);
+            this.label21.Location = new System.Drawing.Point(29, 58);
             this.label21.Name = "label21";
             this.label21.Size = new System.Drawing.Size(45, 17);
             this.label21.TabIndex = 24;
@@ -394,7 +366,7 @@
             // lbNamaPenerima
             // 
             this.lbNamaPenerima.AutoSize = true;
-            this.lbNamaPenerima.Location = new System.Drawing.Point(107, 32);
+            this.lbNamaPenerima.Location = new System.Drawing.Point(131, 60);
             this.lbNamaPenerima.Name = "lbNamaPenerima";
             this.lbNamaPenerima.Size = new System.Drawing.Size(36, 17);
             this.lbNamaPenerima.TabIndex = 25;
@@ -403,7 +375,7 @@
             // label13
             // 
             this.label13.AutoSize = true;
-            this.label13.Location = new System.Drawing.Point(5, 145);
+            this.label13.Location = new System.Drawing.Point(29, 173);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(82, 17);
             this.label13.TabIndex = 32;
@@ -412,7 +384,7 @@
             // label19
             // 
             this.label19.AutoSize = true;
-            this.label19.Location = new System.Drawing.Point(5, 59);
+            this.label19.Location = new System.Drawing.Point(29, 87);
             this.label19.Name = "label19";
             this.label19.Size = new System.Drawing.Size(51, 17);
             this.label19.TabIndex = 26;
@@ -421,7 +393,7 @@
             // lbAlamatPenerima
             // 
             this.lbAlamatPenerima.AutoSize = true;
-            this.lbAlamatPenerima.Location = new System.Drawing.Point(107, 62);
+            this.lbAlamatPenerima.Location = new System.Drawing.Point(131, 90);
             this.lbAlamatPenerima.Name = "lbAlamatPenerima";
             this.lbAlamatPenerima.Size = new System.Drawing.Size(187, 17);
             this.lbAlamatPenerima.TabIndex = 27;
@@ -430,7 +402,7 @@
             // lbKotaPenerima
             // 
             this.lbKotaPenerima.AutoSize = true;
-            this.lbKotaPenerima.Location = new System.Drawing.Point(107, 118);
+            this.lbKotaPenerima.Location = new System.Drawing.Point(131, 146);
             this.lbKotaPenerima.Name = "lbKotaPenerima";
             this.lbKotaPenerima.Size = new System.Drawing.Size(130, 17);
             this.lbKotaPenerima.TabIndex = 31;
@@ -439,7 +411,7 @@
             // label17
             // 
             this.label17.AutoSize = true;
-            this.label17.Location = new System.Drawing.Point(5, 86);
+            this.label17.Location = new System.Drawing.Point(29, 114);
             this.label17.Name = "label17";
             this.label17.Size = new System.Drawing.Size(69, 17);
             this.label17.TabIndex = 28;
@@ -448,7 +420,7 @@
             // lbKodePosPenerima
             // 
             this.lbKodePosPenerima.AutoSize = true;
-            this.lbKodePosPenerima.Location = new System.Drawing.Point(107, 89);
+            this.lbKodePosPenerima.Location = new System.Drawing.Point(131, 117);
             this.lbKodePosPenerima.Name = "lbKodePosPenerima";
             this.lbKodePosPenerima.Size = new System.Drawing.Size(48, 17);
             this.lbKodePosPenerima.TabIndex = 29;
@@ -457,33 +429,11 @@
             // label15
             // 
             this.label15.AutoSize = true;
-            this.label15.Location = new System.Drawing.Point(5, 116);
+            this.label15.Location = new System.Drawing.Point(29, 144);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(37, 17);
             this.label15.TabIndex = 30;
             this.label15.Text = "Kota";
-            // 
-            // groupBox8
-            // 
-            this.groupBox8.Controls.Add(this.Penerima_TextBox);
-            this.groupBox8.Location = new System.Drawing.Point(704, 87);
-            this.groupBox8.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox8.Name = "groupBox8";
-            this.groupBox8.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox8.Size = new System.Drawing.Size(309, 58);
-            this.groupBox8.TabIndex = 30;
-            this.groupBox8.TabStop = false;
-            this.groupBox8.Text = "Penerima";
-            // 
-            // Penerima_TextBox
-            // 
-            this.Penerima_TextBox.Enabled = false;
-            this.Penerima_TextBox.Location = new System.Drawing.Point(5, 21);
-            this.Penerima_TextBox.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.Penerima_TextBox.Name = "Penerima_TextBox";
-            this.Penerima_TextBox.ReadOnly = true;
-            this.Penerima_TextBox.Size = new System.Drawing.Size(304, 22);
-            this.Penerima_TextBox.TabIndex = 0;
             // 
             // printPreviewDialog1
             // 
@@ -505,13 +455,11 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 560);
-            this.Controls.Add(this.groupBox8);
             this.Controls.Add(this.groupBox7);
             this.Controls.Add(this.groupBox5);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.panel2);
             this.Controls.Add(this.button1);
-            this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox1);
@@ -521,8 +469,6 @@
             this.Text = "BuktiTransaksi";
             this.panel2.ResumeLayout(false);
             this.panel2.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
             this.groupBox4.ResumeLayout(false);
@@ -535,8 +481,6 @@
             this.groupBox5.PerformLayout();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
-            this.groupBox8.ResumeLayout(false);
-            this.groupBox8.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -547,8 +491,6 @@
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.GroupBox groupBox3;
-        private System.Windows.Forms.TextBox Pengirim_TextBox;
         private System.Windows.Forms.GroupBox groupBox2;
         private System.Windows.Forms.TextBox Berat_TextBox;
         private System.Windows.Forms.GroupBox groupBox4;
@@ -580,8 +522,6 @@
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.Label lbKodePosPenerima;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.GroupBox groupBox8;
-        private System.Windows.Forms.TextBox Penerima_TextBox;
         private System.Windows.Forms.PrintPreviewDialog printPreviewDialog1;
         private System.Drawing.Printing.PrintDocument printDocument1;
     }

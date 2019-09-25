@@ -16,7 +16,7 @@ namespace src
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new BuktiTransaksi());
+            Application.Run(new Main());
         }
     }
 }
