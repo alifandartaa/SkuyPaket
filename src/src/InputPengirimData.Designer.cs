@@ -118,7 +118,7 @@
             this.tbTotal.Location = new System.Drawing.Point(617, 49);
             this.tbTotal.Name = "tbTotal";
             this.tbTotal.Size = new System.Drawing.Size(152, 20);
-            this.tbTotal.TabIndex = 39;
+            this.tbTotal.TabIndex = 9;
             // 
             // lbKg
             // 
@@ -134,7 +134,7 @@
             this.tbTarif.Location = new System.Drawing.Point(617, 20);
             this.tbTarif.Name = "tbTarif";
             this.tbTarif.Size = new System.Drawing.Size(152, 20);
-            this.tbTarif.TabIndex = 37;
+            this.tbTarif.TabIndex = 8;
             this.tbTarif.TextChanged += new System.EventHandler(this.tbTarif_TextChanged);
             // 
             // lbTarif
@@ -151,7 +151,7 @@
             this.tbBerat.Location = new System.Drawing.Point(371, 75);
             this.tbBerat.Name = "tbBerat";
             this.tbBerat.Size = new System.Drawing.Size(167, 20);
-            this.tbBerat.TabIndex = 35;
+            this.tbBerat.TabIndex = 7;
             this.tbBerat.TextChanged += new System.EventHandler(this.tbBerat_TextChanged);
             // 
             // lbBerat
@@ -169,7 +169,7 @@
             this.cbJenisBarang.Location = new System.Drawing.Point(371, 22);
             this.cbJenisBarang.Name = "cbJenisBarang";
             this.cbJenisBarang.Size = new System.Drawing.Size(193, 21);
-            this.cbJenisBarang.TabIndex = 33;
+            this.cbJenisBarang.TabIndex = 4;
             // 
             // lbKategoriPaket
             // 
@@ -186,7 +186,7 @@
             this.rbExpress.Location = new System.Drawing.Point(447, 50);
             this.rbExpress.Name = "rbExpress";
             this.rbExpress.Size = new System.Drawing.Size(62, 17);
-            this.rbExpress.TabIndex = 31;
+            this.rbExpress.TabIndex = 6;
             this.rbExpress.TabStop = true;
             this.rbExpress.Text = "Express";
             this.rbExpress.UseVisualStyleBackColor = true;
@@ -198,7 +198,7 @@
             this.rbReguler.Location = new System.Drawing.Point(379, 50);
             this.rbReguler.Name = "rbReguler";
             this.rbReguler.Size = new System.Drawing.Size(62, 17);
-            this.rbReguler.TabIndex = 30;
+            this.rbReguler.TabIndex = 5;
             this.rbReguler.TabStop = true;
             this.rbReguler.Text = "Reguler";
             this.rbReguler.UseVisualStyleBackColor = true;
@@ -218,7 +218,7 @@
             this.dtTanggal.Location = new System.Drawing.Point(80, 75);
             this.dtTanggal.Name = "dtTanggal";
             this.dtTanggal.Size = new System.Drawing.Size(193, 20);
-            this.dtTanggal.TabIndex = 25;
+            this.dtTanggal.TabIndex = 3;
             // 
             // cbCabang
             // 
@@ -226,7 +226,7 @@
             this.cbCabang.Location = new System.Drawing.Point(80, 22);
             this.cbCabang.Name = "cbCabang";
             this.cbCabang.Size = new System.Drawing.Size(193, 21);
-            this.cbCabang.TabIndex = 21;
+            this.cbCabang.TabIndex = 1;
             // 
             // lbTanggal
             // 
@@ -242,7 +242,7 @@
             this.tbNoResi.Location = new System.Drawing.Point(80, 49);
             this.tbNoResi.Name = "tbNoResi";
             this.tbNoResi.Size = new System.Drawing.Size(193, 20);
-            this.tbNoResi.TabIndex = 18;
+            this.tbNoResi.TabIndex = 2;
             // 
             // lbNoResi
             // 
@@ -299,7 +299,7 @@
             this.tbKotaPenerima.Location = new System.Drawing.Point(469, 117);
             this.tbKotaPenerima.Name = "tbKotaPenerima";
             this.tbKotaPenerima.Size = new System.Drawing.Size(300, 20);
-            this.tbKotaPenerima.TabIndex = 56;
+            this.tbKotaPenerima.TabIndex = 17;
             // 
             // lbKotaPenerima
             // 
@@ -315,7 +315,7 @@
             this.tbKotaPengirim.Location = new System.Drawing.Point(80, 117);
             this.tbKotaPengirim.Name = "tbKotaPengirim";
             this.tbKotaPengirim.Size = new System.Drawing.Size(300, 20);
-            this.tbKotaPengirim.TabIndex = 54;
+            this.tbKotaPengirim.TabIndex = 12;
             // 
             // lbKotaPengirim
             // 
@@ -331,7 +331,7 @@
             this.tbNoTelpPenerima.Location = new System.Drawing.Point(469, 174);
             this.tbNoTelpPenerima.Name = "tbNoTelpPenerima";
             this.tbNoTelpPenerima.Size = new System.Drawing.Size(300, 20);
-            this.tbNoTelpPenerima.TabIndex = 52;
+            this.tbNoTelpPenerima.TabIndex = 19;
             // 
             // lbNoTelpPenerima
             // 
@@ -347,7 +347,7 @@
             this.tbKodePosPenerima.Location = new System.Drawing.Point(469, 148);
             this.tbKodePosPenerima.Name = "tbKodePosPenerima";
             this.tbKodePosPenerima.Size = new System.Drawing.Size(300, 20);
-            this.tbKodePosPenerima.TabIndex = 50;
+            this.tbKodePosPenerima.TabIndex = 18;
             // 
             // lbKodePosPenerima
             // 
@@ -363,7 +363,7 @@
             this.tbAlamatPenerima.Location = new System.Drawing.Point(469, 46);
             this.tbAlamatPenerima.Name = "tbAlamatPenerima";
             this.tbAlamatPenerima.Size = new System.Drawing.Size(300, 65);
-            this.tbAlamatPenerima.TabIndex = 48;
+            this.tbAlamatPenerima.TabIndex = 16;
             this.tbAlamatPenerima.Text = "";
             // 
             // lbAlamatPenerima
@@ -380,7 +380,7 @@
             this.tbPenerima.Location = new System.Drawing.Point(469, 20);
             this.tbPenerima.Name = "tbPenerima";
             this.tbPenerima.Size = new System.Drawing.Size(300, 20);
-            this.tbPenerima.TabIndex = 46;
+            this.tbPenerima.TabIndex = 15;
             // 
             // lbPenerima
             // 
@@ -396,7 +396,7 @@
             this.tbNoTelpPengirim.Location = new System.Drawing.Point(80, 174);
             this.tbNoTelpPengirim.Name = "tbNoTelpPengirim";
             this.tbNoTelpPengirim.Size = new System.Drawing.Size(300, 20);
-            this.tbNoTelpPengirim.TabIndex = 44;
+            this.tbNoTelpPengirim.TabIndex = 14;
             // 
             // lbNoTelpPengirim
             // 
@@ -412,7 +412,7 @@
             this.tbKodePosPengirim.Location = new System.Drawing.Point(80, 148);
             this.tbKodePosPengirim.Name = "tbKodePosPengirim";
             this.tbKodePosPengirim.Size = new System.Drawing.Size(300, 20);
-            this.tbKodePosPengirim.TabIndex = 42;
+            this.tbKodePosPengirim.TabIndex = 13;
             // 
             // lbKodePosPengirim
             // 
@@ -428,7 +428,7 @@
             this.tbAlamatPengirim.Location = new System.Drawing.Point(80, 46);
             this.tbAlamatPengirim.Name = "tbAlamatPengirim";
             this.tbAlamatPengirim.Size = new System.Drawing.Size(300, 65);
-            this.tbAlamatPengirim.TabIndex = 40;
+            this.tbAlamatPengirim.TabIndex = 11;
             this.tbAlamatPengirim.Text = "";
             // 
             // lbAlamatPengirim
@@ -445,7 +445,7 @@
             this.tbPengirim.Location = new System.Drawing.Point(80, 20);
             this.tbPengirim.Name = "tbPengirim";
             this.tbPengirim.Size = new System.Drawing.Size(300, 20);
-            this.tbPengirim.TabIndex = 38;
+            this.tbPengirim.TabIndex = 10;
             // 
             // lbPengirim
             // 

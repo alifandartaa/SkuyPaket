@@ -54,12 +54,12 @@ namespace src
                 Console.WriteLine("Barang Executed");
 
                 // pengirim
-                commandDatabase.CommandText = "INSERT INTO USER (`id`, `nama`, `alamat`, `kota`, `kode_pos`, `no_telp`) VALUES(NULL, '" + pengirim.Nama + "','" + pengirim.Alamat + "','" + pengirim.Kota + "'," + pengirim.Kode_pos + ",'" + pengirim.Telp + "'); SELECT LAST_INSERT_ID();";
+                commandDatabase.CommandText = "INSERT INTO USER (`id`, `nama`, `alamat`, `kota`, `kode_pos`, `no_telp`, `tipe`) VALUES(NULL, '" + pengirim.Nama + "','" + pengirim.Alamat + "','" + pengirim.Kota + "'," + pengirim.Kode_pos + ",'" + pengirim.Telp + "', 0); SELECT LAST_INSERT_ID();";
                 int id_pengirim = Convert.ToInt32(commandDatabase.ExecuteScalar());
                 Console.WriteLine("Pengirim Executed");
 
                 // penerima
-                commandDatabase.CommandText = "INSERT INTO USER (`id`, `nama`, `alamat`, `kota`, `kode_pos`, `no_telp`) VALUES(NULL, '" + penerima.Nama + "','" + penerima.Alamat + "','" + penerima.Kota + "'," + penerima.Kode_pos + ",'" + penerima.Telp + "'); SELECT LAST_INSERT_ID();";
+                commandDatabase.CommandText = "INSERT INTO USER (`id`, `nama`, `alamat`, `kota`, `kode_pos`, `no_telp`, `tipe`) VALUES(NULL, '" + penerima.Nama + "','" + penerima.Alamat + "','" + penerima.Kota + "'," + penerima.Kode_pos + ",'" + penerima.Telp + "', 1); SELECT LAST_INSERT_ID();";
                 int id_penerima = Convert.ToInt32(commandDatabase.ExecuteScalar());
                 Console.WriteLine("Penerima Executed");
 
