@@ -175,9 +175,9 @@
             // 
             // btn_tampilkan
             // 
-            this.btn_tampilkan.Location = new System.Drawing.Point(304, 519);
+            this.btn_tampilkan.Location = new System.Drawing.Point(299, 512);
             this.btn_tampilkan.Name = "btn_tampilkan";
-            this.btn_tampilkan.Size = new System.Drawing.Size(155, 31);
+            this.btn_tampilkan.Size = new System.Drawing.Size(155, 45);
             this.btn_tampilkan.TabIndex = 19;
             this.btn_tampilkan.Text = "Tampilkan";
             this.btn_tampilkan.UseVisualStyleBackColor = true;
