@@ -66,7 +66,7 @@ namespace src
                 Console.WriteLine(id_pengirim + " " + id_penerima);
 
                 // invoice
-                commandDatabase.CommandText = "INSERT INTO INVOICE (`id`, `id_pengirim`, `id_penerima`, `cabang`, `no_resi`, `tanggal`, `total`) VALUES(NULL, " + id_pengirim + "," + id_penerima + ",'" + cbCabang.SelectedItem.ToString() + "','" + tbNoResi.Text + "','" + dtTanggal.Value.ToString("yyyy-MM-dd", CultureInfo.InvariantCulture) + "'," +  float.Parse(tbTotal.Text) + "); SELECT LAST_INSERT_ID();";
+                commandDatabase.CommandText = "INSERT INTO INVOICE (`id`, `id_pengirim`, `id_penerima`, `cabang`, `no_resi`, `tanggal`, `total`) VALUES(NULL, " + id_pengirim + "," + id_penerima + ",'" + cbCabang.SelectedItem.ToString() + "','" + tbNoResi.Text + "','" + dtTanggal.Value.ToString("yyyy-MM-dd HH:mm:ss", CultureInfo.InvariantCulture) + "'," +  float.Parse(tbTotal.Text) + "); SELECT LAST_INSERT_ID();";
                 int id_invoice = Convert.ToInt32(commandDatabase.ExecuteScalar());
                 Console.WriteLine("Invoice Executed");
 
