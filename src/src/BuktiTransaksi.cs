@@ -44,7 +44,7 @@ namespace src
                 conn.ConnectionString = connString;
                 conn.Open(); // Open DB connection
                 //get data barang
-                String sql = "SELECT kategori_barang FROM barang WHERE no_resi='" + noresi + "'";
+                String sql = "SELECT kategori_barang FROM barang WHERE no_resi='" + this.Noresi + "'";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
@@ -76,7 +76,7 @@ namespace src
                 conn.ConnectionString = connString;
                 conn.Open(); // Open DB connection
                 //get data barang
-                String sql = "SELECT jenis_barang FROM barang WHERE no_resi='" + noresi + "'";
+                String sql = "SELECT jenis_barang FROM barang WHERE no_resi='" + this.Noresi + "'";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
@@ -108,7 +108,7 @@ namespace src
                 conn.ConnectionString = connString;
                 conn.Open(); // Open DB connection
                 //get data barang
-                String sql = "SELECT berat_barang FROM barang WHERE no_resi='" + noresi + "'";
+                String sql = "SELECT berat_barang FROM barang WHERE no_resi='" + this.Noresi + "'";
                 MySqlCommand cmd = new MySqlCommand(sql, conn);
                 MySqlDataReader rdr = cmd.ExecuteReader();
                 while (rdr.Read())
@@ -205,7 +205,7 @@ namespace src
                 conn.ConnectionString = connString;
                 conn.Open(); // Open DB connection
                 MySqlCommand commandDatabase = conn.CreateCommand();
-                commandDatabase.Parameters.AddWithValue("@no_resi", noresi);
+                commandDatabase.Parameters.AddWithValue("@no_resi", this.Noresi);
                 commandDatabase.CommandText = "SELECT * FROM user WHERE id IN (SELECT id_pengirim FROM invoice WHERE no_resi = @no_resi)";
                 MySqlDataReader read = commandDatabase.ExecuteReader();
                 while (read.Read())
@@ -239,16 +239,16 @@ namespace src
                 conn.ConnectionString = connString;
                 conn.Open(); // Open DB connection
                 MySqlCommand commandDatabase = conn.CreateCommand();
-                commandDatabase.Parameters.AddWithValue("@no_resi", noresi);
-                commandDatabase.CommandText = "SELECT * FROM user WHERE id IN (SELECT id_pengirim FROM invoice WHERE no_resi = @no_resi)";
+                commandDatabase.CommandText = "SELECT * FROM user WHERE id IN (SELECT id_penerima FROM invoice WHERE no_resi ='" + this.Noresi + "')";
+                //commandDatabase.Parameters.AddWithValue("@no_resi", this.Noresi);
                 MySqlDataReader read = commandDatabase.ExecuteReader();
                 while (read.Read())
                 {
-                    lbNamaPengirim.Text = (read["nama"].ToString());
-                    lbAlamatPengirim.Text = (read["alamat"].ToString());
-                    lbKodePosPengirim.Text = (read["kode_pos"].ToString());
-                    lbKotaPengirim.Text = (read["kota"].ToString());
-                    lbNoTelpPengirim.Text = (read["no_telp"].ToString());
+                    lbNamaPenerima.Text = (read["nama"].ToString());
+                    lbAlamatPenerima.Text = (read["alamat"].ToString());
+                    lbKodePosPenerima.Text = (read["kode_pos"].ToString());
+                    lbKotaPenerima.Text = (read["kota"].ToString());
+                    lbNoTelpPenerima.Text = (read["no_telp"].ToString());
                 }
 
             }
